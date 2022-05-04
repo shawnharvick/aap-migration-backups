@@ -1,0 +1,702 @@
+notification_templates:
+-   description: ''
+    messages:
+        error: null
+        started: null
+        success: null
+        workflow_approval: null
+    name: ATC_Lab_Automation_Teams
+    natural_key:
+        name: ATC_Lab_Automation_Teams
+        organization:
+            name: Network Solutions
+            type: organization
+        type: notification_template
+    notification_configuration:
+        headers: {}
+        http_method: POST
+        url: https://outlook.office.com/webhook/28d89793-272d-464e-983a-802e8b751f3a@a2d8e6b4-e26e-4421-8f3d-ec288c827c7d/IncomingWebhook/40512107deb6486dbacd65baf5d51640/d0e3389a-316d-4708-a1c3-d6c8c5ef8d4b
+    notification_type: webhook
+    organization:
+        name: Network Solutions
+        type: organization
+-   description: ''
+    messages: null
+    name: Cisco SDWAN OnRAMP GCP
+    natural_key:
+        name: Cisco SDWAN OnRAMP GCP
+        organization:
+            name: Network Solutions
+            type: organization
+        type: notification_template
+    notification_configuration:
+        approved_body: 'The approval node "{{ approval_node_name }}" was approved.
+            {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        denied_body: 'The approval node "{{ approval_node_name }}" was denied. {{
+            workflow_url }}
+
+
+            {{ job_metadata }}'
+        error_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        host: smtp.wwtatc.com
+        password: ''
+        port: 25
+        recipients:
+        - jeff.andiorio@wwt.com
+        - rob.phillips@wwt.com
+        running_body: 'The approval node "{{ approval_node_name }}" needs review.
+            This approval node can be viewed at: {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        sender: jeff.andiorio@wwt.com
+        started_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        success_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        timed_out_body: 'The approval node "{{ approval_node_name }}" has timed out.
+            {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        timeout: 30
+        use_ssl: false
+        use_tls: false
+        username: andiorij
+    notification_type: email
+    organization:
+        name: Network Solutions
+        type: organization
+-   description: ''
+    messages: null
+    name: Cisco-Self-Service-ACI-Lab
+    natural_key:
+        name: Cisco-Self-Service-ACI-Lab
+        organization:
+            name: Network Solutions
+            type: organization
+        type: notification_template
+    notification_configuration:
+        approved_body: 'The approval node "{{ approval_node_name }}" was approved.
+            {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        denied_body: 'The approval node "{{ approval_node_name }}" was denied. {{
+            workflow_url }}
+
+
+            {{ job_metadata }}'
+        error_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        host: smtp.wwtatc.com
+        password: ''
+        port: 25
+        recipients:
+        - jeff.andiorio@wwt.com
+        - craig.kemmerer@wwt.com
+        running_body: 'The approval node "{{ approval_node_name }}" needs review.
+            This approval node can be viewed at: {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        sender: jeff.andiorio@wwt.com
+        started_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        success_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        timed_out_body: 'The approval node "{{ approval_node_name }}" has timed out.
+            {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        timeout: 30
+        use_ssl: false
+        use_tls: false
+        username: andiorij
+    notification_type: email
+    organization:
+        name: Network Solutions
+        type: organization
+-   description: ''
+    messages:
+        error: null
+        started: null
+        success: null
+        workflow_approval: null
+    name: Dennis Heim
+    natural_key:
+        name: Dennis Heim
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: notification_template
+    notification_configuration:
+        host: smtp.wwtatc.com
+        password: ''
+        port: 25
+        recipients:
+        - dennis.heim@wwtatc.com
+        sender: atc-tower@wwtatc.com
+        timeout: 30
+        use_ssl: false
+        use_tls: false
+        username: ''
+    notification_type: email
+    organization:
+        name: Digital Workspace
+        type: organization
+-   description: ''
+    messages: null
+    name: dnac_lab_automation_notification
+    natural_key:
+        name: dnac_lab_automation_notification
+        organization:
+            name: Network Solutions
+            type: organization
+        type: notification_template
+    notification_configuration:
+        approved_body: 'The approval node "{{ approval_node_name }}" was approved.
+            {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        denied_body: 'The approval node "{{ approval_node_name }}" was denied. {{
+            workflow_url }}
+
+
+            {{ job_metadata }}'
+        error_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        host: smtp.wwtatc.com
+        password: ''
+        port: 25
+        recipients:
+        - jeff.andiorio@wwt.com
+        running_body: 'The approval node "{{ approval_node_name }}" needs review.
+            This approval node can be viewed at: {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        sender: jeff.andiorio@wwt.com
+        started_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        success_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        timed_out_body: 'The approval node "{{ approval_node_name }}" has timed out.
+            {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        timeout: 30
+        use_ssl: false
+        use_tls: false
+        username: andiorij
+    notification_type: email
+    organization:
+        name: Network Solutions
+        type: organization
+-   description: ''
+    messages: null
+    name: Email Corey Wanless
+    natural_key:
+        name: Email Corey Wanless
+        organization:
+            name: Data Center
+            type: organization
+        type: notification_template
+    notification_configuration:
+        approved_body: 'The approval node "{{ approval_node_name }}" was approved.
+            {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        denied_body: 'The approval node "{{ approval_node_name }}" was denied. {{
+            workflow_url }}
+
+
+            {{ job_metadata }}'
+        error_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        host: smtp.wwtatc.local
+        password: ''
+        port: 25
+        recipients:
+        - corey.wanless@wwt.com
+        running_body: 'The approval node "{{ approval_node_name }}" needs review.
+            This approval node can be viewed at: {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        sender: admin@atc-tower.wwtatc.com
+        started_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        success_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        timed_out_body: 'The approval node "{{ approval_node_name }}" has timed out.
+            {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        timeout: 30
+        use_ssl: false
+        use_tls: false
+        username: ''
+    notification_type: email
+    organization:
+        name: Data Center
+        type: organization
+-   description: ''
+    messages: null
+    name: Email Justin Field
+    natural_key:
+        name: Email Justin Field
+        organization:
+            name: Data Center
+            type: organization
+        type: notification_template
+    notification_configuration:
+        approved_body: 'The approval node "{{ approval_node_name }}" was approved.
+            {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        denied_body: 'The approval node "{{ approval_node_name }}" was denied. {{
+            workflow_url }}
+
+
+            {{ job_metadata }}'
+        error_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        host: smtp.wwtatc.local
+        password: ''
+        port: 25
+        recipients:
+        - justin.field@wwt.com
+        running_body: 'The approval node "{{ approval_node_name }}" needs review.
+            This approval node can be viewed at: {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        sender: admin@atc-tower.wwtatc.com
+        started_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        success_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        timed_out_body: 'The approval node "{{ approval_node_name }}" has timed out.
+            {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        timeout: 30
+        use_ssl: false
+        use_tls: false
+        username: ''
+    notification_type: email
+    organization:
+        name: Data Center
+        type: organization
+-   description: ''
+    messages: null
+    name: Email NetApp Demo
+    natural_key:
+        name: Email NetApp Demo
+        organization:
+            name: NetApp
+            type: organization
+        type: notification_template
+    notification_configuration:
+        approved_body: 'The approval node "{{ approval_node_name }}" was approved.
+            {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        denied_body: 'The approval node "{{ approval_node_name }}" was denied. {{
+            workflow_url }}
+
+
+            {{ job_metadata }}'
+        error_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        host: smtp.wwtatc.local
+        password: ''
+        port: 25
+        recipients:
+        - netapp_demo@wwt.com
+        running_body: 'The approval node "{{ approval_node_name }}" needs review.
+            This approval node can be viewed at: {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        sender: admin@atc-tower.wwtatc.com
+        started_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        success_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        timed_out_body: 'The approval node "{{ approval_node_name }}" has timed out.
+            {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        timeout: 30
+        use_ssl: false
+        use_tls: false
+        username: ''
+    notification_type: email
+    organization:
+        name: NetApp
+        type: organization
+-   description: ''
+    messages: null
+    name: Email Phil Canman
+    natural_key:
+        name: Email Phil Canman
+        organization:
+            name: Lab Services
+            type: organization
+        type: notification_template
+    notification_configuration:
+        approved_body: 'The approval node "{{ approval_node_name }}" was approved.
+            {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        denied_body: 'The approval node "{{ approval_node_name }}" was denied. {{
+            workflow_url }}
+
+
+            {{ job_metadata }}'
+        error_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        host: smtp.wwtatc.local
+        password: ''
+        port: 25
+        recipients:
+        - phil.canman@wwt.com
+        running_body: 'The approval node "{{ approval_node_name }}" needs review.
+            This approval node can be viewed at: {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        sender: admin@atc-tower.wwtatc.com
+        started_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        success_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        timed_out_body: 'The approval node "{{ approval_node_name }}" has timed out.
+            {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        timeout: 30
+        use_ssl: false
+        use_tls: false
+        username: ''
+    notification_type: email
+    organization:
+        name: Lab Services
+        type: organization
+-   description: ''
+    messages: null
+    name: Email Shawn Harvick
+    natural_key:
+        name: Email Shawn Harvick
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: notification_template
+    notification_configuration:
+        approved_body: 'The approval node "{{ approval_node_name }}" was approved.
+            {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        denied_body: 'The approval node "{{ approval_node_name }}" was denied. {{
+            workflow_url }}
+
+
+            {{ job_metadata }}'
+        error_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        host: smtp.wwtatc.com
+        password: ''
+        port: 25
+        recipients:
+        - shawn.harvick@wwt.com
+        running_body: 'The approval node "{{ approval_node_name }}" needs review.
+            This approval node can be viewed at: {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        sender: tower@wwtatc.com
+        started_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        success_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        timed_out_body: 'The approval node "{{ approval_node_name }}" has timed out.
+            {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        timeout: 30
+        use_ssl: false
+        use_tls: false
+        username: ''
+    notification_type: email
+    organization:
+        name: ATC Core Engineering
+        type: organization
+-   description: ''
+    messages: null
+    name: Email Steve McCall
+    natural_key:
+        name: Email Steve McCall
+        organization:
+            name: Data Center
+            type: organization
+        type: notification_template
+    notification_configuration:
+        approved_body: 'The approval node "{{ approval_node_name }}" was approved.
+            {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        denied_body: 'The approval node "{{ approval_node_name }}" was denied. {{
+            workflow_url }}
+
+
+            {{ job_metadata }}'
+        error_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        host: smtp.wwtatc.local
+        password: ''
+        port: 25
+        recipients:
+        - steven.mccall@wwt.com
+        running_body: 'The approval node "{{ approval_node_name }}" needs review.
+            This approval node can be viewed at: {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        sender: admin@atc-tower.wwtatc.com
+        started_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        success_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        timed_out_body: 'The approval node "{{ approval_node_name }}" has timed out.
+            {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        timeout: 30
+        use_ssl: false
+        use_tls: false
+        username: ''
+    notification_type: email
+    organization:
+        name: Data Center
+        type: organization
+-   description: ''
+    messages: null
+    name: PS-Wireless-Labs-Notification
+    natural_key:
+        name: PS-Wireless-Labs-Notification
+        organization:
+            name: Network Solutions
+            type: organization
+        type: notification_template
+    notification_configuration:
+        approved_body: 'The approval node "{{ approval_node_name }}" was approved.
+            {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        denied_body: 'The approval node "{{ approval_node_name }}" was denied. {{
+            workflow_url }}
+
+
+            {{ job_metadata }}'
+        error_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        host: smtp.wwtatc.com
+        password: ''
+        port: 25
+        recipients:
+        - jeff.andiorio@wwt.com
+        - Chris.Radford@wwt.com
+        running_body: 'The approval node "{{ approval_node_name }}" needs review.
+            This approval node can be viewed at: {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        sender: jeff.andiorio@wwt.com
+        started_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        success_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        timed_out_body: 'The approval node "{{ approval_node_name }}" has timed out.
+            {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        timeout: 30
+        use_ssl: false
+        use_tls: false
+        username: ''
+    notification_type: email
+    organization:
+        name: Network Solutions
+        type: organization
+-   description: ''
+    messages: null
+    name: Scott Boda
+    natural_key:
+        name: Scott Boda
+        organization:
+            name: Network Solutions
+            type: organization
+        type: notification_template
+    notification_configuration:
+        approved_body: 'The approval node "{{ approval_node_name }}" was approved.
+            {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        denied_body: 'The approval node "{{ approval_node_name }}" was denied. {{
+            workflow_url }}
+
+
+            {{ job_metadata }}'
+        error_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        host: smtp.wwtatc.com
+        password: ''
+        port: 25
+        recipients:
+        - scott.boda@wwt.com
+        running_body: 'The approval node "{{ approval_node_name }}" needs review.
+            This approval node can be viewed at: {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        sender: jeff.andiorio@wwt.com
+        started_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        success_body: '{{ job_friendly_name }} #{{ job.id }} had status {{ job.status
+            }}, view details at {{ url }}
+
+
+            {{ job_metadata }}'
+        timed_out_body: 'The approval node "{{ approval_node_name }}" has timed out.
+            {{ workflow_url }}
+
+
+            {{ job_metadata }}'
+        timeout: 30
+        use_ssl: false
+        use_tls: false
+        username: andiorij
+    notification_type: email
+    organization:
+        name: Network Solutions
+        type: organization
