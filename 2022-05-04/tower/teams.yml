@@ -1,0 +1,582 @@
+teams:
+-   description: ''
+    name: Thelios
+    natural_key:
+        name: Thelios
+        organization:
+            name: Application Solutions
+            type: organization
+        type: team
+    organization:
+        name: Application Solutions
+        type: organization
+    related:
+        roles:
+        -   content_object:
+                name: Thelios-Lab-Startup
+                organization:
+                    name: Application Solutions
+                    type: organization
+                type: job_template
+            name: Execute
+            type: role
+-   description: ''
+    name: GET Storage
+    natural_key:
+        name: GET Storage
+        organization:
+            name: Data Center
+            type: organization
+        type: team
+    organization:
+        name: Data Center
+        type: organization
+    related:
+        roles:
+        -   content_object:
+                name: Data Center
+                type: organization
+            name: Execute
+            type: role
+-   description: ''
+    name: Pure Storage
+    natural_key:
+        name: Pure Storage
+        organization:
+            name: Data Center
+            type: organization
+        type: team
+    organization:
+        name: Data Center
+        type: organization
+    related:
+        roles:
+        -   content_object:
+                name: IOGen Project
+                organization:
+                    name: Data Center
+                    type: organization
+                type: project
+            name: Use
+            type: role
+-   description: ''
+    name: Rubrik
+    natural_key:
+        name: Rubrik
+        organization:
+            name: Data Center
+            type: organization
+        type: team
+    organization:
+        name: Data Center
+        type: organization
+    related:
+        roles:
+        -   content_object:
+                name: File Generator (Vdbench)
+                organization:
+                    name: Data Center
+                    type: organization
+                type: job_template
+            name: Execute
+            type: role
+        -   content_object:
+                name: FileGen
+                organization:
+                    name: Data Center
+                    type: organization
+                type: project
+            name: Use
+            type: role
+-   description: ''
+    name: VCF-Executors
+    natural_key:
+        name: VCF-Executors
+        organization:
+            name: Data Center
+            type: organization
+        type: team
+    organization:
+        name: Data Center
+        type: organization
+    related:
+        roles:
+        -   content_object:
+                name: vcf-prep-automation-lab
+                organization:
+                    name: Data Center
+                    type: organization
+                type: job_template
+            name: Execute
+            type: role
+-   description: ''
+    name: ATCPOC0005341
+    natural_key:
+        name: ATCPOC0005341
+        organization:
+            name: Lab Services
+            type: organization
+        type: team
+    organization:
+        name: Lab Services
+        type: organization
+    related:
+        roles: []
+-   description: ''
+    name: NetApp Demos
+    natural_key:
+        name: NetApp Demos
+        organization:
+            name: NetApp
+            type: organization
+        type: team
+    organization:
+        name: NetApp
+        type: organization
+    related:
+        roles:
+        -   content_object:
+                name: NetApp AWS Inventory
+                organization:
+                    name: NetApp
+                    type: organization
+                type: inventory
+            name: Update
+            type: role
+        -   content_object:
+                name: NetApp AWS Inventory
+                organization:
+                    name: NetApp
+                    type: organization
+                type: inventory
+            name: Use
+            type: role
+        -   content_object:
+                name: NetApp Azure Inventory
+                organization:
+                    name: NetApp
+                    type: organization
+                type: inventory
+            name: Update
+            type: role
+        -   content_object:
+                name: NetApp Azure Inventory
+                organization:
+                    name: NetApp
+                    type: organization
+                type: inventory
+            name: Use
+            type: role
+        -   content_object:
+                name: NetApp GCP Inventory
+                organization:
+                    name: NetApp
+                    type: organization
+                type: inventory
+            name: Update
+            type: role
+        -   content_object:
+                name: NetApp GCP Inventory
+                organization:
+                    name: NetApp
+                    type: organization
+                type: inventory
+            name: Use
+            type: role
+        -   content_object:
+                name: NetApp AWS CVS IOGen
+                organization:
+                    name: NetApp
+                    type: organization
+                type: workflow_job_template
+            name: Execute
+            type: role
+        -   content_object:
+                name: NetApp AWS CVS Wipe Env
+                organization:
+                    name: NetApp
+                    type: organization
+                type: workflow_job_template
+            name: Execute
+            type: role
+        -   content_object:
+                name: NetApp AWS CVO IOGen
+                organization:
+                    name: NetApp
+                    type: organization
+                type: workflow_job_template
+            name: Execute
+            type: role
+        -   content_object:
+                name: NetApp AWS CVO Wipe Env
+                organization:
+                    name: NetApp
+                    type: organization
+                type: workflow_job_template
+            name: Execute
+            type: role
+        -   content_object:
+                name: NetApp Azure CVO IOGen
+                organization:
+                    name: NetApp
+                    type: organization
+                type: workflow_job_template
+            name: Execute
+            type: role
+        -   content_object:
+                name: NetApp Azure CVO Wipe Env
+                organization:
+                    name: NetApp
+                    type: organization
+                type: workflow_job_template
+            name: Execute
+            type: role
+        -   content_object:
+                name: NetApp GCP CVO IOGen
+                organization:
+                    name: NetApp
+                    type: organization
+                type: workflow_job_template
+            name: Execute
+            type: role
+        -   content_object:
+                name: NetApp GCP CVO Wipe Env
+                organization:
+                    name: NetApp
+                    type: organization
+                type: workflow_job_template
+            name: Execute
+            type: role
+        -   content_object:
+                name: NetApp Azure ANF IOGen
+                organization:
+                    name: NetApp
+                    type: organization
+                type: workflow_job_template
+            name: Execute
+            type: role
+        -   content_object:
+                name: NetApp Azure ANF Wipe Env
+                organization:
+                    name: NetApp
+                    type: organization
+                type: workflow_job_template
+            name: Execute
+            type: role
+-   description: ACI Trainers
+    name: ACI_Trainers
+    natural_key:
+        name: ACI_Trainers
+        organization:
+            name: Network Solutions
+            type: organization
+        type: team
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        roles:
+        -   content_object:
+                name: Cisco_ACI_Training_Setup
+                organization:
+                    name: Network Solutions
+                    type: organization
+                type: job_template
+            name: Execute
+            type: role
+        -   content_object:
+                name: Cisco_ACI_Training_Teardown
+                organization:
+                    name: Network Solutions
+                    type: organization
+                type: job_template
+            name: Execute
+            type: role
+-   description: ''
+    name: Cisco SDWAN GCP OnRAMP
+    natural_key:
+        name: Cisco SDWAN GCP OnRAMP
+        organization:
+            name: Network Solutions
+            type: organization
+        type: team
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        roles:
+        -   content_object:
+                name: Cisco SDWAN OnRAMP to GCP Template
+                organization:
+                    name: Network Solutions
+                    type: organization
+                type: job_template
+            name: Execute
+            type: role
+-   description: Data Center Networking Team
+    name: Data_Center_Networking
+    natural_key:
+        name: Data_Center_Networking
+        organization:
+            name: Network Solutions
+            type: organization
+        type: team
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        roles:
+        -   content_object:
+                name: Cisco_BGP_EVPN_Inventory
+                organization:
+                    name: Network Solutions
+                    type: organization
+                type: inventory
+            name: Admin
+            type: role
+        -   content_object:
+                name: Cisco_BGP_EVPN_Setup
+                organization:
+                    name: Network Solutions
+                    type: organization
+                type: job_template
+            name: Admin
+            type: role
+        -   content_object:
+                name: Cisco_BGP_EVPN_Teardown
+                organization:
+                    name: Network Solutions
+                    type: organization
+                type: job_template
+            name: Execute
+            type: role
+        -   content_object:
+                name: Cisco_BGP_EVPN_Project
+                organization:
+                    name: Network Solutions
+                    type: organization
+                type: project
+            name: Admin
+            type: role
+-   description: Consumers of automation
+    name: DNA_GTM_Team
+    natural_key:
+        name: DNA_GTM_Team
+        organization:
+            name: Network Solutions
+            type: organization
+        type: team
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        roles:
+        -   content_object:
+                name: Cisco_DNA_Training_Baseline
+                organization:
+                    name: Network Solutions
+                    type: organization
+                type: job_template
+            name: Execute
+            type: role
+-   description: ''
+    name: DNA_Lab_Automators
+    natural_key:
+        name: DNA_Lab_Automators
+        organization:
+            name: Network Solutions
+            type: organization
+        type: team
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        roles:
+        -   content_object:
+                name: DNAC_Plus_Ansible_Setup
+                organization:
+                    name: Network Solutions
+                    type: organization
+                type: job_template
+            name: Execute
+            type: role
+        -   content_object:
+                name: DNAC_Plus_Ansible_Teardown
+                organization:
+                    name: Network Solutions
+                    type: organization
+                type: job_template
+            name: Execute
+            type: role
+        -   content_object:
+                name: Cisco_DNA_Baseline
+                organization:
+                    name: Network Solutions
+                    type: organization
+                type: job_template
+            name: Execute
+            type: role
+        -   content_object:
+                name: Cisco_DNA_Provisioned
+                organization:
+                    name: Network Solutions
+                    type: organization
+                type: job_template
+            name: Execute
+            type: role
+        -   content_object:
+                name: Cisco_DNA_Training_Baseline
+                organization:
+                    name: Network Solutions
+                    type: organization
+                type: job_template
+            name: Execute
+            type: role
+        -   content_object:
+                name: Cisco_DNA_Wireless
+                organization:
+                    name: Network Solutions
+                    type: organization
+                type: job_template
+            name: Execute
+            type: role
+-   description: ''
+    name: Meraki_Labs_RO
+    natural_key:
+        name: Meraki_Labs_RO
+        organization:
+            name: Network Solutions
+            type: organization
+        type: team
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        roles:
+        -   content_object:
+                name: Meraki-Lab-Inventory
+                organization:
+                    name: Network Solutions
+                    type: organization
+                type: inventory
+            name: Read
+            type: role
+        -   content_object:
+                name: Meraki-Lab-Automation
+                organization:
+                    name: Network Solutions
+                    type: organization
+                type: job_template
+            name: Read
+            type: role
+        -   content_object:
+                name: Meraki-Labs-Project
+                organization:
+                    name: Network Solutions
+                    type: organization
+                type: project
+            name: Read
+            type: role
+-   description: ''
+    name: PS_Labs
+    natural_key:
+        name: PS_Labs
+        organization:
+            name: Network Solutions
+            type: organization
+        type: team
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        roles: []
+-   description: ''
+    name: Network Virtualization Systems
+    natural_key:
+        name: Network Virtualization Systems
+        organization:
+            name: Open Network Solutions
+            type: organization
+        type: team
+    organization:
+        name: Open Network Solutions
+        type: organization
+    related:
+        roles: []
+-   description: ''
+    name: Pure Demos
+    natural_key:
+        name: Pure Demos
+        organization:
+            name: Pure Storage
+            type: organization
+        type: team
+    organization:
+        name: Pure Storage
+        type: organization
+    related:
+        roles:
+        -   content_object:
+                name: Pure AWS Inventory
+                organization:
+                    name: Pure Storage
+                    type: organization
+                type: inventory
+            name: Update
+            type: role
+        -   content_object:
+                name: Pure AWS Inventory
+                organization:
+                    name: Pure Storage
+                    type: organization
+                type: inventory
+            name: Use
+            type: role
+        -   content_object:
+                name: Pure Azure Inventory
+                organization:
+                    name: Pure Storage
+                    type: organization
+                type: inventory
+            name: Update
+            type: role
+        -   content_object:
+                name: Pure Azure Inventory
+                organization:
+                    name: Pure Storage
+                    type: organization
+                type: inventory
+            name: Use
+            type: role
+        -   content_object:
+                name: Pure AWS CBS Wipe Env
+                organization:
+                    name: Pure Storage
+                    type: organization
+                type: workflow_job_template
+            name: Execute
+            type: role
+        -   content_object:
+                name: Pure AWS CBS IOGen
+                organization:
+                    name: Pure Storage
+                    type: organization
+                type: workflow_job_template
+            name: Execute
+            type: role
+        -   content_object:
+                name: Pure Azure CBS Wipe Env
+                organization:
+                    name: Pure Storage
+                    type: organization
+                type: workflow_job_template
+            name: Execute
+            type: role
+        -   content_object:
+                name: Pure Azure CBS IOGen
+                organization:
+                    name: Pure Storage
+                    type: organization
+                type: workflow_job_template
+            name: Execute
+            type: role
