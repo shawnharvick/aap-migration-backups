@@ -1,0 +1,4431 @@
+projects:
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _4__demo_project
+    name: Demo Project
+    natural_key:
+        name: Demo Project
+        organization:
+            name: Default
+            type: organization
+        type: project
+    organization:
+        name: Default
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/ansible/ansible-tower-samples
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Nate's Stuff
+    local_path: _6__nexus_playbooks
+    name: Nexus Playbooks
+    natural_key:
+        name: Nexus Playbooks
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: project
+    organization:
+        name: ATC Core Engineering
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.wwt.com/litzn/nexus_write.git
+    timeout: 0
+-   allow_override: true
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _10__campus_dna_labs_project
+    name: Campus-DNA-Labs-Project
+    natural_key:
+        name: Campus-DNA-Labs-Project
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error:
+        -   name: dnac_lab_automation_notification
+            organization:
+                name: Network Solutions
+                type: organization
+            type: notification_template
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: master
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: http://gitlocal.wwtatc.lab/wwt/atc-dna-lab-automation.git
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _11__ansible_plus_dna_center
+    name: Ansible_Plus_DNA_Center
+    natural_key:
+        name: Ansible_Plus_DNA_Center
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error:
+        -   name: dnac_lab_automation_notification
+            organization:
+                name: Network Solutions
+                type: organization
+            type: notification_template
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: master
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: false
+    scm_url: http://gitlocal.wwtatc.lab/wwt/atc-ansible-plus-dnac.git
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation for ACI Training Class
+    local_path: _12__aci_training_class
+    name: ACI_Training_Class
+    natural_key:
+        name: ACI_Training_Class
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error:
+        -   name: dnac_lab_automation_notification
+            organization:
+                name: Network Solutions
+                type: organization
+            type: notification_template
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: master
+    scm_clean: true
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: http://gitlocal.wwtatc.lab/wwt/atc-aci-ilt-class.git
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _22__lab_services_sda_bundle
+    name: Lab Services SDA Bundle
+    natural_key:
+        name: Lab Services SDA Bundle
+        organization:
+            name: Lab Services
+            type: organization
+        type: project
+    organization:
+        name: Lab Services
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: true
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.wwt.com/saunderb/ls-ansible-sda-pod1.git
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _29__tower_demo
+    name: Tower Demo
+    natural_key:
+        name: Tower Demo
+        organization:
+            name: Professional Services
+            type: organization
+        type: project
+    organization:
+        name: Professional Services
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.wwt.com/professional-services/ACI.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: WWT Github
+        organization:
+            name: Data Center
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _33__atc_get
+    name: ATC GET Github
+    natural_key:
+        name: ATC GET Github
+        organization:
+            name: Data Center
+            type: organization
+        type: project
+    organization:
+        name: Data Center
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/ansible-atc-get.git
+    timeout: 0
+-   allow_override: true
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: WWT Github
+        organization:
+            name: Data Center
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _39__iogen
+    name: IOGen Project
+    natural_key:
+        name: IOGen Project
+        organization:
+            name: Data Center
+            type: organization
+        type: project
+    organization:
+        name: Data Center
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: false
+    scm_url: https://github.com/wwt/ansible-iogen.git
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _50__campus_dna_labs_project50856_pm
+    name: Campus-DNA-Labs-Project-Wireless
+    natural_key:
+        name: Campus-DNA-Labs-Project-Wireless
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: master
+    scm_clean: true
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: http://gitlocal.wwtatc.lab/wwt/atc-dna-lab-automation.git
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _83__boa_lab85308_am
+    name: BoA Lab
+    natural_key:
+        name: BoA Lab
+        organization:
+            name: Lab Services
+            type: organization
+        type: project
+    organization:
+        name: Lab Services
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: true
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.wwt.com/sieversp/ansible_boa.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: NickThompson-Github
+        organization:
+            name: Open Network Solutions
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Next Gen Central Office
+    local_path: _85__ngco
+    name: NGCO
+    natural_key:
+        name: NGCO
+        organization:
+            name: Open Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Open Network Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: master
+    scm_clean: true
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: git@github.com:wwt/ngco.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: atc_git
+        organization:
+            name: Network Solutions
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Cisco BGP EVPN Class Automation
+    local_path: _107__cisco_bgp_evpn_project
+    name: Cisco_BGP_EVPN_Project
+    natural_key:
+        name: Cisco_BGP_EVPN_Project
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: master
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.wwt.com/orangeJ/cisco_bgp_evpn_automation
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _118__lab_services_traffic_jam_demo
+    name: Lab Services Traffic Jam Demo
+    natural_key:
+        name: Lab Services Traffic Jam Demo
+        organization:
+            name: Lab Services
+            type: organization
+        type: project
+    organization:
+        name: Lab Services
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: true
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.wwt.com/saunderb/ls-ansible-trafficjam-demo.git
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _127__atc_ipmgmt
+    name: atc-ipmgmt
+    natural_key:
+        name: atc-ipmgmt
+        organization:
+            name: Lab Services
+            type: organization
+        type: project
+    organization:
+        name: Lab Services
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: false
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: http://gitlocal.wwtatc.lab/wwt/atc-ipmgmt-ansible.git
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _148__traffic_jam_master_branch
+    name: Traffic Jam - Master Branch
+    natural_key:
+        name: Traffic Jam - Master Branch
+        organization:
+            name: Lab Services
+            type: organization
+        type: project
+    organization:
+        name: Lab Services
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: false
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.wwt.com/saunderb/trafficjam-ansible-playbooks.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: WWT Github
+        organization:
+            name: Data Center
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _160__filegen
+    name: FileGen
+    natural_key:
+        name: FileGen
+        organization:
+            name: Data Center
+            type: organization
+        type: project
+    organization:
+        name: Data Center
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/ansible_filegen.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: WWT Github
+        organization:
+            name: Data Center
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _180__atcpoc0004578
+    name: ATCPOC0004578
+    natural_key:
+        name: ATCPOC0004578
+        organization:
+            name: Data Center
+            type: organization
+        type: project
+    organization:
+        name: Data Center
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: false
+    scm_url: https://github.com/wwt/ansible-ATCPOC0004578.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: RonWhitt-Github
+        organization:
+            name: Open Network Solutions
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _195__cns_test_project
+    name: cns-test-project
+    natural_key:
+        name: cns-test-project
+        organization:
+            name: Open Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Open Network Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: master
+    scm_clean: true
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: git@github.com:ron-whitt/cns-labs-test.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: keinerd-git
+        organization:
+            name: Lab Services
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Vodafone DNA Center
+    local_path: _196__atcpoc0004985_vodafone_dnac
+    name: ATCPOC0004985 - Vodafone DNAC
+    natural_key:
+        name: ATCPOC0004985 - Vodafone DNAC
+        organization:
+            name: Lab Services
+            type: organization
+        type: project
+    organization:
+        name: Lab Services
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: master
+    scm_clean: false
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 3600
+    scm_update_on_launch: true
+    scm_url: https://github.wwt.com/keinerd/ATCPOC0004985-DNAC
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _200__traffic_jam_dev_v210
+    name: Traffic Jam - DEV - v2.1.0
+    natural_key:
+        name: Traffic Jam - DEV - v2.1.0
+        organization:
+            name: Lab Services
+            type: organization
+        type: project
+    organization:
+        name: Lab Services
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: dev/v2.1.0
+    scm_clean: false
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.wwt.com/saunderb/trafficjam-ansible-playbooks.git
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Project for Meraki labs
+    local_path: _206__meraki_labs_project
+    name: Meraki-Labs-Project
+    natural_key:
+        name: Meraki-Labs-Project
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: master
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: http://gitlocal.wwtatc.lab/wwt/atc-meraki-lab-automation.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: Corey - Github Access Token
+        organization:
+            name: Data Center
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _210__nasa_dnac
+    name: NASA DNAC
+    natural_key:
+        name: NASA DNAC
+        organization:
+            name: Data Center
+            type: organization
+        type: project
+    organization:
+        name: Data Center
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: false
+    scm_url: https://github.com/jandiorio/nasa-automation-workshop.git
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _213__nasa_dnac2
+    name: NASA DNAC2
+    natural_key:
+        name: NASA DNAC2
+        organization:
+            name: Data Center
+            type: organization
+        type: project
+    organization:
+        name: Data Center
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://gitlab-cloud.wwtatc.com/atc-demos/ansible-dnac-snow.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: Corey - Github Access Token
+        organization:
+            name: Data Center
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _215__vcf_bootstrap
+    name: vcf-bootstrap
+    natural_key:
+        name: vcf-bootstrap
+        organization:
+            name: Data Center
+            type: organization
+        type: project
+    organization:
+        name: Data Center
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/ansible-atc-vcf-bootstrap.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: Thelios-Gitlab
+        organization:
+            name: Application Solutions
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _227__thelios_gitlab_ansible
+    name: Thelios-Gitlab-Ansible
+    natural_key:
+        name: Thelios-Gitlab-Ansible
+        organization:
+            name: Application Solutions
+            type: organization
+        type: project
+    organization:
+        name: Application Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: master
+    scm_clean: true
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 120
+    scm_update_on_launch: true
+    scm_url: git@gitlab.asynchrony.com:proj-1367/lab-playbook.git
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _230__aruba_wireless_lab
+    name: Aruba_Wireless_Lab
+    natural_key:
+        name: Aruba_Wireless_Lab
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: master
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: http://gitlocal.wwtatc.lab/wwt/atc-aruba-lab-automation.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: jandiorio-github
+        organization:
+            name: Network Solutions
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _241__test_dnac_plugin
+    name: TEST_DNAC_PLUGIN
+    natural_key:
+        name: TEST_DNAC_PLUGIN
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error:
+        -   name: ATC_Lab_Automation_Teams
+            organization:
+                name: Network Solutions
+                type: organization
+            type: notification_template
+        notification_templates_started: []
+        notification_templates_success:
+        -   name: ATC_Lab_Automation_Teams
+            organization:
+                name: Network Solutions
+                type: organization
+            type: notification_template
+        schedules: []
+    scm_branch: master
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: false
+    scm_url: git@github.com:jandiorio/test_cisco_dnac.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: atclabuser
+        organization:
+            name: Network Solutions
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _243__bigiq_lab
+    name: bigiq_lab
+    natural_key:
+        name: bigiq_lab
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: false
+    scm_url: https://gitlab.com/shahapus/f5-bigiq-module3.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: duboisc-git
+        organization:
+            name: Network Solutions
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Reset script for Riverbed lab requested by Steve.Hollar@wwt.com
+    local_path: _247__riverbed_lab
+    name: Riverbed-Lab-Old
+    natural_key:
+        name: Riverbed-Lab-Old
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: master
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.wwt.com/duboisc/atc-riverbed-lab-automation
+    timeout: 0
+-   allow_override: true
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _254__cisco_wireless_lab
+    name: Cisco 9800 Foundation Lab
+    natural_key:
+        name: Cisco 9800 Foundation Lab
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: http://gitlocal.wwtatc.lab/wwt/cisco-9800-foundation-lab.git
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _258__aruba_wireless_lab_ps
+    name: Aruba_Wireless_Lab_PS
+    natural_key:
+        name: Aruba_Wireless_Lab_PS
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: http://gitlocal.wwtatc.lab/wwt/atc-aruba-lab-automation-ps.git
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _261__traffic_jam_prod_v301
+    name: Traffic Jam - Prod - v3.0.1
+    natural_key:
+        name: Traffic Jam - Prod - v3.0.1
+        organization:
+            name: Lab Services
+            type: organization
+        type: project
+    organization:
+        name: Lab Services
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: v3.0.1
+    scm_clean: false
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.wwt.com/saunderb/trafficjam-ansible-playbooks.git
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Setup/Teardown ACI Self Service Training
+    local_path: _267__cisco_aci_self_service_training
+    name: Cisco ACI Self-Service Training
+    natural_key:
+        name: Cisco ACI Self-Service Training
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: master
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 900
+    scm_update_on_launch: true
+    scm_url: http://gitlocal.wwtatc.lab/wwt/atc-aci-training-class-lab-automation.git
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Project to Test Platform Webhook
+    local_path: _274__atc_platform_webhook_testing
+    name: ATC Platform Webhook Testing
+    natural_key:
+        name: ATC Platform Webhook Testing
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: master
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: http://gitlocal.wwtatc.lab/wwt/atc_platform_webhook_testing.git
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _275__cisco_ansible_automation_lab
+    name: Cisco Ansible Automation Lab
+    natural_key:
+        name: Cisco Ansible Automation Lab
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: master
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 300
+    scm_update_on_launch: true
+    scm_url: http://gitlocal.wwtatc.lab/wwt/atc-cisco-ansible-lab-automation.git
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _279__cisco_wireless_ha_lab
+    name: Cisco-Wireless-HA-Lab
+    natural_key:
+        name: Cisco-Wireless-HA-Lab
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: master
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: http://gitlocal.wwtatc.lab/wwt/atc-cisco-wireless-ha-lab-automation.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: Corey - Github Access Token
+        organization:
+            name: Data Center
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: The Revamp of vcf-bootstrap
+    local_path: _286__vcf_automation_lab
+    name: vcf-automation-lab
+    natural_key:
+        name: vcf-automation-lab
+        organization:
+            name: Data Center
+            type: organization
+        type: project
+    organization:
+        name: Data Center
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/vcf-automation-lab.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: Github canmanp
+        organization:
+            name: Lab Services
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: main
+    local_path: _328__canmanp_ansible_vmware
+    name: canmanp_ansible_vmware
+    natural_key:
+        name: canmanp_ansible_vmware
+        organization:
+            name: Lab Services
+            type: organization
+        type: project
+    organization:
+        name: Lab Services
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: main
+    scm_clean: false
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: false
+    scm_url: git@github.com:philcanman/ansible_vmware.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: shawnharvick-git
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _331__netapp_volume_create
+    name: NetApp Volume Create
+    natural_key:
+        name: NetApp Volume Create
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: project
+    organization:
+        name: ATC Core Engineering
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/netapp-volume-create/
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _333__vcloud_vm_insert
+    name: vCloud-VM-Insert
+    natural_key:
+        name: vCloud-VM-Insert
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: http://gitlocal.wwtatc.lab/wwt/vCloud-VM-Insert.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _337__vcloud_vm_insert2
+    name: collaboration-system-release-125-administration-lab-dev
+    natural_key:
+        name: collaboration-system-release-125-administration-lab-dev
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/collaboration-system-release-125-administration-lab.git
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _339__test_ansible_and_labdocs_repo
+    name: test_ansible_and_labdocs_repo
+    natural_key:
+        name: test_ansible_and_labdocs_repo
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: master
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: http://gitlocal.wwtatc.lab/wwt/labdocs_repo_ansible.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _341__collaboration_system_release_125_administration_lab75411_am
+    name: collaboration-system-release-125-administration-lab-prod
+    natural_key:
+        name: collaboration-system-release-125-administration-lab-prod
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: project
+    organization:
+        name: ATC Core Engineering
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: main
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/collaboration-system-release-125-administration-lab.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: duboisc-git
+        organization:
+            name: Network Solutions
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _345__riverbed_lab_test
+    name: Riverbed-Lab-Test
+    natural_key:
+        name: Riverbed-Lab-Test
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.wwt.com/duboisc/atc-riverbed-lab-automation.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _347__collaboration_ansible_vcdlease
+    name: Collaboration-ansible-vCDLease
+    natural_key:
+        name: Collaboration-ansible-vCDLease
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: master
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/Collaboration-ansible-vCDLease.git
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _350__robot_framework_demo_inventory
+    name: Robot Framework - Demo - Inventory
+    natural_key:
+        name: Robot Framework - Demo - Inventory
+        organization:
+            name: Lab Services
+            type: organization
+        type: project
+    organization:
+        name: Lab Services
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: false
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: http://gitlocal.wwtatc.lab/wwt/robotframework-demo-inventory.git
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Aruba_CX_Switching
+    local_path: _356__aruba_cx_switching
+    name: Aruba_CX_Switching
+    natural_key:
+        name: Aruba_CX_Switching
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: http://gitlocal.wwtatc.lab/wwt/aruba-cx-switching-lab.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _360__collaboration_system_release_14_internal_sandbox
+    name: collaboration-system-release-14-configuration-lab-dev
+    natural_key:
+        name: collaboration-system-release-14-configuration-lab-dev
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error:
+        -   name: Dennis Heim
+            organization:
+                name: Digital Workspace
+                type: organization
+            type: notification_template
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/collaboration-system-release-14-configuration-lab.git
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _363__f5_301a_lab
+    name: f5-301a-cert-license-check
+    natural_key:
+        name: f5-301a-cert-license-check
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: http://gitlocal.wwtatc.lab/wwt/f5-301a-big-ip-ltm-specialist-labs.git
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: F5 201 Lab License check using unified repo
+    local_path: _368__f5_201_cert_license_check
+    name: f5-201-cert-license-check
+    natural_key:
+        name: f5-201-cert-license-check
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: http://gitlocal.wwtatc.lab/wwt/f5-201-big-ip-ltm-specialist-labs.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _371__test_galaxy
+    name: Test-Galaxy
+    natural_key:
+        name: Test-Galaxy
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: main
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/collaboration-test.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _373__collaboration_system_release_14_internal_sandbox_prod
+    name: collaboration-system-release-14-configuration-lab
+    natural_key:
+        name: collaboration-system-release-14-configuration-lab
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: project
+    organization:
+        name: ATC Core Engineering
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: main
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/collaboration-system-release-14-configuration-lab.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _378__akkadian_provisioning_manager_user_experience_dev
+    name: akkadian-provisioning-manager-user-experience-dev
+    natural_key:
+        name: akkadian-provisioning-manager-user-experience-dev
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/akkadian-provisioning-manager-user-experience.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _380__akkadian_provisioning_manager_user_experience_prod
+    name: akkadian-provisioning-manager-user-experience-prod
+    natural_key:
+        name: akkadian-provisioning-manager-user-experience-prod
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: project
+    organization:
+        name: ATC Core Engineering
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: main
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/akkadian-provisioning-manager-user-experience.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _382__collaboration_system_release_125_configuration_lab_dev
+    name: collaboration-system-release-125-configuration-lab-dev
+    natural_key:
+        name: collaboration-system-release-125-configuration-lab-dev
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/collaboration-system-release-125-configuration-lab.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _384__collaboration_system_release_125_configuration_lab_prod
+    name: collaboration-system-release-125-configuration-lab-prod
+    natural_key:
+        name: collaboration-system-release-125-configuration-lab-prod
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: project
+    organization:
+        name: ATC Core Engineering
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: main
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: false
+    scm_url: https://github.com/wwt/collaboration-system-release-125-configuration-lab.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _387__mobile_remote_access_configuration_lab
+    name: mobile-remote-access-configuration-lab-dev
+    natural_key:
+        name: mobile-remote-access-configuration-lab-dev
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/mobile-remote-access-configuration-lab.git
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Admin Project
+    local_path: _391__introtoocp4project
+    name: IntroToOCP4_Admin
+    natural_key:
+        name: IntroToOCP4_Admin
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: http://gitlocal.wwtatc.lab/wwt/introduction-to-openshift-for-developers.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _393__ucm_cloud_dev
+    name: ucm-cloud-dev
+    natural_key:
+        name: ucm-cloud-dev
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/ucm-cloud-lab.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _396__verint_compliance_security_dev
+    name: verint-compliance-security-dev
+    natural_key:
+        name: verint-compliance-security-dev
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/verint-compliance-and-security-end-user-experience.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _397__kurmi_yarnlab_orchestration_dev
+    name: kurmi-yarnlab-orchestration-dev
+    natural_key:
+        name: kurmi-yarnlab-orchestration-dev
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/kurmi-and-yarnlabs-orchestration-experience-lab.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _400__kallol_testing_automation_v01_dev
+    name: Kallol - Testing Automation v01 - Dev
+    natural_key:
+        name: Kallol - Testing Automation v01 - Dev
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/kallol-testing-automation-v01.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _402__verint_compliance_security_prod
+    name: verint-compliance-security-prod
+    natural_key:
+        name: verint-compliance-security-prod
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: project
+    organization:
+        name: ATC Core Engineering
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: main
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/verint-compliance-and-security-end-user-experience.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _404__ucm_cloud_prod
+    name: ucm-cloud-prod
+    natural_key:
+        name: ucm-cloud-prod
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: project
+    organization:
+        name: ATC Core Engineering
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: main
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/ucm-cloud-lab.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _406__kurmi_yarnlab_orchestration_prod
+    name: kurmi-yarnlab-orchestration-prod
+    natural_key:
+        name: kurmi-yarnlab-orchestration-prod
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: project
+    organization:
+        name: ATC Core Engineering
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: main
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/kurmi-and-yarnlabs-orchestration-experience-lab.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _408__mobile_remote_access_configuration_lab_dev114938_pm
+    name: cisco-meeting-server-vq-conference-manager-dev
+    natural_key:
+        name: cisco-meeting-server-vq-conference-manager-dev
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/cisco-meeting-server-vq-conference-manager.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _410__cisco_collaboration_115_persistent_chat_configuration_lab_dev
+    name: cisco-collaboration-115-persistent-chat-configuration-lab-dev
+    natural_key:
+        name: cisco-collaboration-115-persistent-chat-configuration-lab-dev
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/cisco-collaboration-115-persistent-chat-configuration-lab.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _433__mobile_remote_access_configuration_lab_prod
+    name: mobile-remote-access-configuration-lab-prod
+    natural_key:
+        name: mobile-remote-access-configuration-lab-prod
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: project
+    organization:
+        name: ATC Core Engineering
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: main
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/mobile-remote-access-configuration-lab.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _436__cisco_meeting_server_vq_conference_manager_prod
+    name: cisco-meeting-server-vq-conference-manager-prod
+    natural_key:
+        name: cisco-meeting-server-vq-conference-manager-prod
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: project
+    organization:
+        name: ATC Core Engineering
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: main
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/cisco-meeting-server-vq-conference-manager.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _439__collaboration_system_release_125_administration_lab_dev90435_am
+    name: unified-contact-center-express-125-configuration-lab-dev
+    natural_key:
+        name: unified-contact-center-express-125-configuration-lab-dev
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/unified-contact-center-express-125-configuration-lab.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _441__pexip_video_conferencing_experience_lab_dev
+    name: pexip-video-conferencing-experience-lab-dev
+    natural_key:
+        name: pexip-video-conferencing-experience-lab-dev
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/pexip-video-conferencing-experience-lab.git
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Jumpbox Project
+    local_path: _443__introtoocp_jumpbox
+    name: IntroToOCP_Jumpbox
+    natural_key:
+        name: IntroToOCP_Jumpbox
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: http://gitlocal.wwtatc.lab/wwt/introduction-to-openshift-for-developers.git
+    timeout: 0
+-   allow_override: true
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _445__cisco_sdwan_onramp_to_gcp
+    name: Cisco SDWAN ONRAMP to GCP
+    natural_key:
+        name: Cisco SDWAN ONRAMP to GCP
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: http://gitlocal.wwtatc.lab/wwt/cisco-sd-wan-on-ramp-to-google-cloud-platform.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _449__pexip_video_conferencing_experience_lab_prod
+    name: pexip-video-conferencing-experience-lab-prod
+    natural_key:
+        name: pexip-video-conferencing-experience-lab-prod
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: project
+    organization:
+        name: ATC Core Engineering
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: main
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/pexip-video-conferencing-experience-lab.git
+    timeout: 0
+-   allow_override: true
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: WWT Github
+        organization:
+            name: Data Center
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _451__iogen_project34858_pm
+    name: IOGen Project Dev
+    natural_key:
+        name: IOGen Project Dev
+        organization:
+            name: Data Center
+            type: organization
+        type: project
+    organization:
+        name: Data Center
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: hpecv
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: false
+    scm_url: https://github.com/wwt/ansible-iogen.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: shawnharvick-git
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _453__netapp_volume_delete
+    name: NetApp Volume Delete
+    natural_key:
+        name: NetApp Volume Delete
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: project
+    organization:
+        name: ATC Core Engineering
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/netapp-volume-delete/
+    timeout: 0
+-   allow_override: true
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _456__mist_foundations_lab_project
+    name: Mist Foundations Lab Project
+    natural_key:
+        name: Mist Foundations Lab Project
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: http://gitlocal.wwtatc.lab/wwt/juniper-mist-foundations-lab.git
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _459__lab_services_atcpoc0005341_config_backups
+    name: Lab Services - ATCPOC0005341 Config Backups
+    natural_key:
+        name: Lab Services - ATCPOC0005341 Config Backups
+        organization:
+            name: Lab Services
+            type: organization
+        type: project
+    organization:
+        name: Lab Services
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: false
+    scm_url: http://gitlocal.wwtatc.lab/wwt/atcpoc0005341-config-backups-playbooks
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _468__unified_contact_center_express_125_configuration_lab_prod
+    name: unified-contact-center-express-125-configuration-lab-prod
+    natural_key:
+        name: unified-contact-center-express-125-configuration-lab-prod
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: project
+    organization:
+        name: ATC Core Engineering
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: main
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/unified-contact-center-express-125-configuration-lab.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: hpe cloudvolumes github
+        organization:
+            name: Pure Storage
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _470__hpe_cloud_volumes
+    name: hpe cloud volumes
+    natural_key:
+        name: hpe cloud volumes
+        organization:
+            name: Pure Storage
+            type: organization
+        type: project
+    organization:
+        name: Pure Storage
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: false
+    scm_url: git@github.com:wwt/ansible-hpecv.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _472__unified_contact_center_express_125_configuration_lab_dev22706_pm
+    name: cisco-finesse-125-administration-lab-dev
+    natural_key:
+        name: cisco-finesse-125-administration-lab-dev
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/cisco-finesse-125-administration-lab.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Akkadian Console Attendant Dev
+    local_path: _475__akkadian_console_attendant_dev
+    name: Akkadian-Console-Attendant-Dev
+    natural_key:
+        name: Akkadian-Console-Attendant-Dev
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/akkadian-labs-attendant-console.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _478__imagicle_attendant_console_dev
+    name: Imagicle-Attendant-Console-Dev
+    natural_key:
+        name: Imagicle-Attendant-Console-Dev
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/imagicle-attendant-console.git
+    timeout: 0
+-   allow_override: true
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _480__socialize_labs_on_network
+    name: Socialize Labs on Network
+    natural_key:
+        name: Socialize Labs on Network
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: http://gitlocal.wwtatc.lab/wwt/gsd-socialize-labs.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab automation
+    local_path: _482__cisco_unified_attendant_console_standard_edition_dev
+    name: cisco-unified-attendant-console-standard-edition-dev
+    natural_key:
+        name: cisco-unified-attendant-console-standard-edition-dev
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/cisco-unified-attendant-console-standard-edition.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: lab automation
+    local_path: _484__cisco_unified_attendant_console_advanced_edition_dev
+    name: cisco-unified-attendant-console-advanced-edition-dev
+    natural_key:
+        name: cisco-unified-attendant-console-advanced-edition-dev
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/cisco-unified-attendant-console-advanced-edition.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _486__imagicle_attendant_console_prod
+    name: Imagicle-Attendant-Console-Prod
+    natural_key:
+        name: Imagicle-Attendant-Console-Prod
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: project
+    organization:
+        name: ATC Core Engineering
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: main
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/imagicle-attendant-console.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: shawnharvick-git
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _488__core_smtp_automation
+    name: Core SMTP Automation
+    natural_key:
+        name: Core SMTP Automation
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: project
+    organization:
+        name: ATC Core Engineering
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: master
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/atc-core-smtp.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _490__cisco_unified_attendant_console_standard_edition_prod
+    name: cisco-unified-attendant-console-standard-edition-prod
+    natural_key:
+        name: cisco-unified-attendant-console-standard-edition-prod
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: project
+    organization:
+        name: ATC Core Engineering
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: main
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/cisco-unified-attendant-console-standard-edition.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: shawnharvick-git
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _492__admin_desktop_create
+    name: Admin Desktop Create
+    natural_key:
+        name: Admin Desktop Create
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: project
+    organization:
+        name: ATC Core Engineering
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/admin-desktop-create.git
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Immutable Infrastructure Git repository
+    local_path: _494__immutablelab2
+    name: ImmutableLab
+    natural_key:
+        name: ImmutableLab
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: http://gitlocal.wwtatc.lab/wwt/immutable-infrastructure.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _497__cisco_unified_attendant_console_advanced_edition_prod
+    name: cisco-unified-attendant-console-advanced-edition-prod
+    natural_key:
+        name: cisco-unified-attendant-console-advanced-edition-prod
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: project
+    organization:
+        name: ATC Core Engineering
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: main
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/cisco-unified-attendant-console-advanced-edition.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _499__cisco_finesse_125_administration_lab_prod
+    name: cisco-finesse-125-administration-lab-prod
+    natural_key:
+        name: cisco-finesse-125-administration-lab-prod
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: project
+    organization:
+        name: ATC Core Engineering
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: main
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/cisco-finesse-125-administration-lab.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _503__cisco_meeting_server_vq_conference_manager_dev122459_pm
+    name: microsoft-teams-and-cisco-collaboration-interoperability-sandbox-dev
+    natural_key:
+        name: microsoft-teams-and-cisco-collaboration-interoperability-sandbox-dev
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/microsoft-teams-and-cisco-collaboration-interoperability-sandbox.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _506__cisco_finesse_125_administration_lab_dev22322_pm
+    name: collaboration-cloud-hybrid-architecture-dev
+    natural_key:
+        name: collaboration-cloud-hybrid-architecture-dev
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/collaboration-cloud-hybrid-architecture.git
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _508__aruba_clearpass_foundations_project
+    name: Aruba ClearPass Foundations Project
+    natural_key:
+        name: Aruba ClearPass Foundations Project
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: false
+    scm_url: http://gitlocal.wwtatc.lab/wwt/aruba-clearpass-foundations-lab-pod-1.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Akkadian Automation
+    local_path: _511__akkadian_console_attendant_prod
+    name: Akkadian-Console-Attendant-Prod
+    natural_key:
+        name: Akkadian-Console-Attendant-Prod
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: project
+    organization:
+        name: ATC Core Engineering
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: main
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/akkadian-labs-attendant-console.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: WWT Github
+        organization:
+            name: Data Center
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _513__poweredge_labs
+    name: PowerEdge-Labs
+    natural_key:
+        name: PowerEdge-Labs
+        organization:
+            name: Data Center
+            type: organization
+        type: project
+    organization:
+        name: Data Center
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: false
+    scm_url: https://github.com/wwt/PowerEdge-Labs.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _516__collaboration_system_release_115_configuration_lab
+    name: collaboration-system-release-115-configuration-lab-dev
+    natural_key:
+        name: collaboration-system-release-115-configuration-lab-dev
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/collaboration-system-release-115-configuration-lab.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: WWT Github
+        organization:
+            name: Data Center
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _519__dell_powerstore_ansible_lab
+    name: dell-powerstore-ansible-lab
+    natural_key:
+        name: dell-powerstore-ansible-lab
+        organization:
+            name: Data Center
+            type: organization
+        type: project
+    organization:
+        name: Data Center
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/dell-powerstore-ansible-lab.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _523__collaboration_system_release_115_administration_lab_dev
+    name: collaboration-system-release-115-administration-lab-dev
+    natural_key:
+        name: collaboration-system-release-115-administration-lab-dev
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/collaboration-system-release-115-administration-lab
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _526__collaboration_system_release_115_configuration_lab_prod
+    name: collaboration-system-release-115-configuration-lab-prod
+    natural_key:
+        name: collaboration-system-release-115-configuration-lab-prod
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: project
+    organization:
+        name: ATC Core Engineering
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: main
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/collaboration-system-release-115-configuration-lab.git
+    timeout: 0
+-   allow_override: true
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _530__mist_foundations_lab_project32334_pm
+    name: Mist Lab PS Project
+    natural_key:
+        name: Mist Lab PS Project
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: http://gitlocal.wwtatc.lab/wwt/mist-lab.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: Corey - Github Access Token
+        organization:
+            name: Data Center
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _532__ansible_crs_automation_poc
+    name: ansible-crs-automation-poc
+    natural_key:
+        name: ansible-crs-automation-poc
+        organization:
+            name: Data Center
+            type: organization
+        type: project
+    organization:
+        name: Data Center
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: main
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/ansible-crs-automation-poc.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _536__cce_126_lab_template_dev
+    name: CCE 12.6 Lab Template-DEV
+    natural_key:
+        name: CCE 12.6 Lab Template-DEV
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/cce-126-lab-template
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _540__cce_126_lab_template_dev10555_pm
+    name: CCE 12.6 Lab Template TEST-DEV
+    natural_key:
+        name: CCE 12.6 Lab Template TEST-DEV
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/cce-126-lab-template
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _542__collaboration_system_release_115_administration_lab_prod
+    name: collaboration-system-release-115-administration-lab-prod
+    natural_key:
+        name: collaboration-system-release-115-administration-lab-prod
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: project
+    organization:
+        name: ATC Core Engineering
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: main
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/collaboration-system-release-115-administration-lab
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: Corey - Github Access Token
+        organization:
+            name: Data Center
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _544__pure_ansible_automation_premium_lab
+    name: pure-ansible-automation-premium-lab
+    natural_key:
+        name: pure-ansible-automation-premium-lab
+        organization:
+            name: Data Center
+            type: organization
+        type: project
+    organization:
+        name: Data Center
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/pure-ansible-automation-premium-lab.git
+    timeout: 0
+-   allow_override: true
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: automation to deploy initial base vapp
+    local_path: _549__deploy_base_vapp
+    name: Deploy Base vApp
+    natural_key:
+        name: Deploy Base vApp
+        organization:
+            name: Network Solutions
+            type: organization
+        type: project
+    organization:
+        name: Network Solutions
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: true
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: http://gitlocal.wwtatc.lab/wwt/atc_deploy_base_vapp.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: Corey - Github Access Token
+        organization:
+            name: Data Center
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _552__sblab_env
+    name: sblab-env
+    natural_key:
+        name: sblab-env
+        organization:
+            name: Data Center
+            type: organization
+        type: project
+    organization:
+        name: Data Center
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: telegraf
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/sblab-env.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: robewill-git
+        organization:
+            name: Lab Services
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _555__atcbld0001906
+    name: ATCBLD0001906
+    natural_key:
+        name: ATCBLD0001906
+        organization:
+            name: Lab Services
+            type: organization
+        type: project
+    organization:
+        name: Lab Services
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: git@github.com:willrobertson23wwt/CSR-1000v-vxlan.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: CCIE Collaboration Lab
+    local_path: _558__ccie_collaboration_lab_dev
+    name: CCIE-Collaboration-Lab-DEV
+    natural_key:
+        name: CCIE-Collaboration-Lab-DEV
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/ccie-collaboration-lab.git
+    timeout: 0
+-   allow_override: false
+    credential: null
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _561__lab_services_toolbox_playbooks
+    name: Lab Services Toolbox Playbooks
+    natural_key:
+        name: Lab Services Toolbox Playbooks
+        organization:
+            name: Lab Services
+            type: organization
+        type: project
+    organization:
+        name: Lab Services
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: false
+    scm_delete_on_update: true
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: false
+    scm_url: http://gitlocal.wwtatc.lab/wwt/ls_toolbox_playbooks.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: CCIE Collaboration Lab
+    local_path: _565__ccie_collaboration_lab_prod
+    name: CCIE-Collaboration-Lab-Prod
+    natural_key:
+        name: CCIE-Collaboration-Lab-Prod
+        organization:
+            name: ATC Core Engineering
+            type: organization
+        type: project
+    organization:
+        name: ATC Core Engineering
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: main
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/ccie-collaboration-lab.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: Github canmanp
+        organization:
+            name: Lab Services
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _567__canmanp_benchmarks
+    name: canmanp_benchmarks
+    natural_key:
+        name: canmanp_benchmarks
+        organization:
+            name: Lab Services
+            type: organization
+        type: project
+    organization:
+        name: Lab Services
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: git@github.com:philcanman/Benchmarks.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: Github canmanp
+        organization:
+            name: Lab Services
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: ''
+    local_path: _569__canmanp_oob_tools
+    name: canmanp_OOB_tools
+    natural_key:
+        name: canmanp_OOB_tools
+        organization:
+            name: Lab Services
+            type: organization
+        type: project
+    organization:
+        name: Lab Services
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: git@github.com:wwt/LS_Bare_Metal_Deploy.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: wwt-githubcom-ro
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Lab Automation
+    local_path: _576__cisco_webex_contact_center_agent_experience_dev
+    name: Cisco-Webex-Contact-Center-Agent-Experience-Dev
+    natural_key:
+        name: Cisco-Webex-Contact-Center-Agent-Experience-Dev
+        organization:
+            name: Digital Workspace
+            type: organization
+        type: project
+    organization:
+        name: Digital Workspace
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: review
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: https://github.com/wwt/cisco-webex-contact-center-agent-experience.git
+    timeout: 0
+-   allow_override: false
+    credential:
+        credential_type:
+            kind: scm
+            name: Source Control
+            type: credential_type
+        name: Github canmanp
+        organization:
+            name: Lab Services
+            type: organization
+        type: credential
+    default_environment:
+        name: Ansible Engine 2.9 execution environment
+        type: execution_environment
+    description: Add VLAN to Switch, UCS, and vCenter - Toolbox
+    local_path: _578__canmanp_ansible_flashlab_switch_ucs_vmware
+    name: canmanp_ansible-flashlab-switch-ucs-vmware
+    natural_key:
+        name: canmanp_ansible-flashlab-switch-ucs-vmware
+        organization:
+            name: Lab Services
+            type: organization
+        type: project
+    organization:
+        name: Lab Services
+        type: organization
+    related:
+        notification_templates_error: []
+        notification_templates_started: []
+        notification_templates_success: []
+        schedules: []
+    scm_branch: ''
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_type: git
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: true
+    scm_url: git@github.com:philcanman/ansible-flashlab-switch-ucs-vmware-playbook.git
+    timeout: 0
